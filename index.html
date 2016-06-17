@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Queen of Cupcakes</title>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/Cupcakes .css">
+
+	</head>
+	<body>
+		<section id="portada" class="portada background"><!-- portada --> 
+		<header id="header" class="header contenedor">  <!-- header -->
+			
+			<figure class="logotipo">
+				<img src="images/LOGO-THE-QUEEN -OF-CUPCAKE.png" with ="186" height="186" alt= "The Queen of Cupcakes"> <!-- logtipo -->
+			</figure>
+			<nav class="menu"><!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+
+					</li>
+					<li>
+						<a href="#cupcakes">Cupcakes</a>
+
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+
+					</li>
+				</ul>
+			</nav>
+		</header>
+			<div class="contenedor">
+			<h1 class="titulo">Cupcakes <span>Vera</span>cruz</h1><!-- titulo --> 
+			<h3 class="title-a">Prueba los  Mejores Cupcakes de Veracruz</h3><!-- resumen  -->
+			<button class="button" src=>Conoce mas</button><!-- boton  -->
+		</div>
+		</section>
+		<section id = "cupcakes" class="cupcakes contenedor"> <!-- cupcakes  -->
+			<h2>Nuestros Cupcakes</h2><!-- TITULO --> 
+			<article class ="cupcake1 cupcake"><!-- cupcake 1 -->
+				<img src="images/Red-Velvet.png" width="286" heigth="286" >
+					<div class="redvelvet">
+					<h3 class="title-b">RedVelvet</h3>
+					<ol>
+						<li>Cacao Rojo</li>
+						<li>Frosting de queso crema </li>	
+						<li>corona de corazon </li>
+					</ol>	
+					</div>
+			</article> 
+			
+			<article class="cupcake2"><!-- cupcake 2 -->
+			<img src="images/cajeta.png" width="186" heigth="186">
+				<div class="cajeta">
+					<h3 class="title-b">Cajeta</h3>
+					<ol>
+						<li>chocolate</li>
+						<li>Frosting de queso crema </li>	
+						<li>Relleno de Cajeta </li>
+					</div>
+					</ol>	
+			</article>
+
+		</section>
+		<footer class="footer">
+		<div class="contenedor">
+		<div class="contacto">
+			<img src="images/logo_blanco.png" with ="146" height="146" alt="logotipo blanco"/>
+			<a href="tel:+522291303428"><strong>Telefono</strong><span>1303428</span></a>
+			<a class="mail" href="mailto:contacto@invie.com"><strong>E-mail</strong>  <span>contacto@invie.com</span></a>
+		</div>
+
+		<form class="formulario">
+			<div class="col1">
+				<label for="nombre">Nombre</label>
+			<input type="text" required id="nombre" name="nombre"/>
+			<label for="email">E-mail</label>
+			<input type="email" required id="email"name="email" />
+			<div class="sexo">
+				<label for="mujer">
+				<input type="radio" id="mujer" checked name="sexo">Mujer
+				</label>
+				<label for="hombre">
+				<input type="radio" id="hombre" name="sexo">Hombre
+				</label>
+			</div>
+			
+			<div class="intereses">
+				<label for="cotizacion">
+				<input type="checkbox" id="cotizacion" name="intereses"/>Cotizaciòn
+				</label>
+				<label for="reclamos">
+				<input type="checkbox" id="reclamos" name="intereses"/>Reclamos
+				</label>
+				<label for="comentarios">
+				<input type="checkbox" id="comentarios" name="intereses"/>Comentarios
+				</label>
+				<label for="otros">
+				<input type="checkbox" id="otros" name="intereses"/>Otros
+				</label>
+			</div>
+			</div>
+			<div class="col2">
+				<label for ="comentarios">Comentarios</label>
+				<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+					<input class="button" type="submit" value="Enviar">
+			</div>	
+
+		</form>
+		</div>
+		</footer>
+	</body>
+</html>

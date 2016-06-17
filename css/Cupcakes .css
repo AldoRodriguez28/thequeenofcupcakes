@@ -1,0 +1,240 @@
+/*	width: tamaño;
+	height: tamaño;
+	padding: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 13px;
+	padding-bottom: 5px;
+	padding: 10px 13px 5px 15px;	
+	margin: 10px;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 13px;
+	margin-bottom: 5px;
+	margin: 10px 13px 5px 15px;
+	border : 2px solid red;*/
+
+
+
+
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+
+}
+table {
+ 	width: 100%;
+ }
+th{
+	background: #273b47;
+	color:white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td {
+	padding: 20px;
+}
+
+table, td, th {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgray;
+
+}
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.background{
+	background-image: url('../images/portada.jpg');
+	background-size: cover;
+}
+.button{
+	border-radius: 10px;
+	border: none; 
+	background: #fd324e;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+
+}
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;	
+	margin-bottom: 0px;
+	margin-top: 70px;
+	text-shadow: -2px -2px 1px #000;
+	}
+.title-a{
+	font-size: 24px;
+	margin-top:0; 
+}
+.cupcakes{
+	color: 1F313C;
+
+}
+.cupcakes ol{
+	padding: 0;
+}
+.cupcakes h2{
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 35px;
+}
+.title-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+}
+.portada{
+	
+	color: white;
+	padding: 20px;
+	height: 600px;
+}
+.portada button{
+	margin-bottom: 70px;
+
+}
+.menu{
+	position: absolute;
+	right: 0;
+	top: 30px;
+	font-size: 24px;
+	display: inline-block;
+	text-shadow: -2px -2px 1px #000;
+
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.menu li:before{
+	content: '∘';
+	font-size: 50px;
+	line-height: 20px;
+	color: white;
+}
+.logotipo{
+	position: relative;
+	margin-left: 0;
+	
+	display: inline-block;
+
+}
+.header{
+	position: relative;
+}
+
+.cupcake1 li{
+	margin-left: 10px;
+}
+
+.cupcake1 img{
+	float: right;
+	position: relative;
+	right: 200px;
+	bottom: -15px;
+
+}
+.cupcake2 img{
+	float: left;
+	position: relative;
+	top: 45px;
+	margin-right: 80px;
+}
+
+.redvelvet{
+	border-radius: 8px;
+	border: 1px solid black;
+	padding-left: 20px;
+}
+.cajeta{
+	border-radius: 8px;
+	border: 1px solid black;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.footer{
+	background: #273b47;
+	padding: 50px 10px;
+}
+.contacto{
+	display: flex;
+	width: 200px;
+	flex-wrap: wrap;
+	align-items: center;
+	
+}
+
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 0px 10px 50px 0;
+    font-size: 11px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+.formulario{
+	display: flex;
+	width: 320px;
+	color:white;
+
+}
+.formulario label, .sexo, .intereses {
+	margin-bottom: 5px;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction : column;
+}
+.col1{
+	margin-right: 15px;
+}
+.col2{
+	align-items:flex-start;
+
+}
+.col2 .button{
+	margin-top: 10px;
+}
+.intereses label{
+	font-size: 13px;
+}
+.sexo{
+	display: flex;
+	font-size: 15px;
+	margin-top: 5px;
+	justify-content: space-between;
+}
+ .tabla{
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ }
